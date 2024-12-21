@@ -4,6 +4,8 @@
 
 ## Getting Started
 
+<details>
+
 ### 1. Create Conda Environment
 
 <details>
@@ -61,6 +63,8 @@ python src/tools/data_preprocess.py --dataset kit
 
 </details>
 
+
+
 ### 3. Download Dependencies and Pretrained Models
 
 <details>
@@ -85,6 +89,8 @@ Then, the file directory should look like this:
 
 </details>
 
+
+</details>
 
 ## Training 
 
