@@ -33,7 +33,7 @@ class HumanML3DDataModule(LightningDataModule):
         super().__init__()
         self.save_hyperparameters(logger=False)
         if dataset_name == "hml3d":
-            self.data_dir = osp.join(data_dir, "HumanML3D_guo")
+            self.data_dir = osp.join(data_dir, "HumanML3D")
         else:
             # self.data_dir = osp.join(data_dir, "KIT")
             self.data_dir = osp.join(data_dir, "KIT-ML")

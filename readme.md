@@ -175,7 +175,7 @@ python src/sample_motion.py device=\"0\"  \
 
 ### 1. Download Render Dependencies
 
-Download and unzip rendering dependencies from [here](https://1drv.ms/u/s!ApyE_Lf3PFl2i4NirCSIchbqf8D6fw?e=3chRmv). . Place the rendering dependencies in the ```./visual_datas/``` directory.
+Download and unzip rendering dependencies from [here](https://1drv.ms/u/s!ApyE_Lf3PFl2i4NirCSIchbqf8D6fw?e=3chRmv). Place the rendering dependencies in the ```./visual_datas/``` directory.
 
 
 ### 2. Install Python Dependencies
