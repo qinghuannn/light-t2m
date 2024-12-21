@@ -1,0 +1,3 @@
+_target_: src.models.nets.text_encoder.Roberta
+freeze_lm: true
+max_text_len: 22

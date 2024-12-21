@@ -1,0 +1,38 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: hml3d_light_final # choose datamodule with `test_dataloader()` for evaluation
+  - model: light_final
+  - logger: null
+  - trainer: gpu
+  - paths: default
+  - extras: default
+  - hydra: default
+
+task_name: "visual"
+
+tags: ["dev"]
+
+# passing checkpoint path is necessary for evaluation
+ckpt_path: "checkpoints/hml3d.ckpt"
+
+# seed for random number generators in pytorch, numpy and python.random
+seed: null
+
+data_dir: "./data/HumanML3D"
+
+save_path: "./visual_datas/"
+
+text: "A person walking and changing their path to the left."
+
+sample_name: "gen_motion"
+
+length: 100
+
+repeats: 10
+
+device: "0"
+
+
+

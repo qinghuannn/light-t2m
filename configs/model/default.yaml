@@ -1,0 +1,22 @@
+ocpm: false
+compile: false
+
+dataset_name: ${data.dataset_name}
+
+# evaluate model
+evaluator:
+  T2M_dir: ./deps/t2m_guo
+
+# evaluate metrics:
+metrics:
+  enable_mm_metric: false
+  diversity_times: 300
+  replicate_times: 20
+  mm_num_samples: 100
+  mm_num_times: 10
+  mm_num_repeats: 30
+
+
+
+
+

@@ -1,0 +1,10 @@
+_target_: lightning.pytorch.callbacks.ModelCheckpoint
+
+dirpath: ${paths.output_dir}/checkpoints
+filename: "{epoch:03d}"
+monitor: "Metrics/FID"
+mode: "min"
+save_top_k: 5
+save_last: true
+auto_insert_metric_name: true
+#every_n_epochs: 1

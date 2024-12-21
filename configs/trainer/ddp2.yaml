@@ -1,0 +1,17 @@
+defaults:
+  - default
+
+accelerator: gpu
+devices: 1
+num_nodes: 1
+
+sync_batchnorm: True
+
+precision: 16-mixed
+
+strategy:
+    _target_: lightning.pytorch.strategies.DDPStrategy
+    find_unused_parameters: True
+    timeout:
+      _target_: datetime.timedelta
+      seconds: 3600

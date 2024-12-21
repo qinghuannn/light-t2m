@@ -1,0 +1,16 @@
+_target_: src.data.hml3d_light.HumanML3DDataModule
+
+data_dir: ${paths.data_dir}
+batch_size: 128
+val_batch_size: -1
+test_batch_size: 128
+num_workers: 8
+pin_memory: False
+njoints: 22
+dataset_name: hml3d
+
+motion_dim: 263
+
+augmentation: true
+w_vectorizer_path: ${paths.root_dir}/deps/glove
+repeat_dataset: 10

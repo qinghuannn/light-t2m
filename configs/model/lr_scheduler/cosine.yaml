@@ -1,0 +1,5 @@
+_target_: src.models.utils.utils.CosineWarmupScheduler
+_partial_: true
+T_max: ${trainer.max_epochs}
+warmup: 0
+eta_min: 1e-5

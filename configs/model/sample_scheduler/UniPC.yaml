@@ -1,0 +1,10 @@
+_target_: diffusers.UniPCMultistepScheduler
+num_train_timesteps: ${model.noise_scheduler.num_train_timesteps}
+beta_start: ${model.noise_scheduler.beta_start}
+beta_end: ${model.noise_scheduler.beta_end}
+beta_schedule: ${model.noise_scheduler.beta_schedule}
+solver_order: 2
+prediction_type: epsilon
+thresholding: False
+sample_max_value: 1.0
+predict_x0: True

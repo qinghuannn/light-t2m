@@ -1,0 +1,2 @@
+_target_: src.models.nets.text_encoder.CLIP
+freeze_lm: true

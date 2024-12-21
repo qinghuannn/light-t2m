@@ -1,0 +1,29 @@
+defaults:
+    - default
+    - text_encoder: clip
+    - denoiser: light_final
+    - optimizer: adamw
+    - noise_scheduler: DDPM_ori
+    - sample_scheduler: UniPC
+#    - lr_scheduler: None
+
+_target_: src.models.light_final.LightMotionGeneration
+
+text_replace_prob: 0.2
+guidance_scale: 4
+dataset_name: ${data.dataset_name}
+
+evaluator:
+  T2M_dir: ./deps/t2m_guo
+
+ocpm: false
+compile: false
+ckpt_path: ${paths.output_dir}/checkpoints
+save_every_n_epochs: 1e9
+
+step_num: 10
+
+ema:
+  use_ema: false
+  ema_decay: 0.99
+  ema_start: 1000

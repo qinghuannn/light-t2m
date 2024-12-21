@@ -1,0 +1,14 @@
+defaults:
+  - model_checkpoint: kfg.yaml
+#  - early_stopping.yaml
+  - model_summary.yaml
+  - rich_progress_bar.yaml
+  - _self_
+
+
+model_summary:
+  max_depth: 2
+
+lr_monitor:
+  _target_: lightning.pytorch.callbacks.LearningRateMonitor
+  logging_interval: "step"

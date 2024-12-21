@@ -1,0 +1,16 @@
+*/__pycache__
+/data/
+/checkpoints/
+/logs/
+/deps/
+/visual_datas/
+/scripts/
+*.pyc
+*.log
+*__pycache__/
+*.egg-info/
+build/
+**.so
+/run_cmd.sh
+*.nfs*
+!data/random_selected_data.npy
