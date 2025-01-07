@@ -202,7 +202,7 @@ CUDA_VISIBLE_DEVICES=0 python -W ignore visualize/blend_render.py --file_dir ./v
 If you find this project or the paper useful in your research, please cite us:
 
 ```bibtex
-@inproceedings{wang2024multi,
+@inproceedings{light-t2m,
   title={Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation},
   author={Ling-An Zeng, Guohong Huang, Gaojie Wu, Wei-Shi Zheng},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
