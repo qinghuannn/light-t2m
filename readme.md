@@ -1,6 +1,23 @@
-# Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation (AAAI 2025)
+<!-- # Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation (AAAI 2025) -->
+
+# [Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation](https://qinghuannn.github.io/light-t2m/)  (AAAI 2025)
+
+[![arXiv](https://img.shields.io/badge/arXiv-<2412.11193>-<COLOR>.svg)](https://arxiv.org/abs/2412.11193)
 
 
+The official PyTorch implementation of the paper [**"Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation"**](https://arxiv.org/abs/2412.11193).
+
+
+If you find this project or the paper useful in your research, please cite us:
+
+```bibtex
+@inproceedings{light-t2m,
+  title={Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation},
+  author={Ling-An Zeng, Guohong Huang, Gaojie Wu, Wei-Shi Zheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025}
+}
+```
 
 ## Getting Started
 
