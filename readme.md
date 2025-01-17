@@ -13,7 +13,7 @@ If you find this project or the paper useful in your research, please cite us:
 ```bibtex
 @inproceedings{light-t2m,
   title={Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation},
-  author={Ling-An Zeng, Guohong Huang, Gaojie Wu, Wei-Shi Zheng},
+  author={Zeng, Ling-An and Huang, Guohong and Wu, Gaojie and Zheng, Wei-Shi},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2025}
 }
@@ -221,7 +221,7 @@ If you find this project or the paper useful in your research, please cite us:
 ```bibtex
 @inproceedings{light-t2m,
   title={Light-T2M: A Lightweight and Fast Model for Text-to-motion Generation},
-  author={Ling-An Zeng, Guohong Huang, Gaojie Wu, Wei-Shi Zheng},
+  author={Zeng, Ling-An and Huang, Guohong and Wu, Gaojie and Zheng, Wei-Shi},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2025}
 }
